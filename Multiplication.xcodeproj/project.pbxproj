@@ -54,6 +54,7 @@
 		2EDA66421E5E232E004BFBAF /* Multiplication */ = {
 			isa = PBXGroup;
 			children = (
+				2EDA66551E5E3802004BFBAF /* Sounds */,
 				2EDA66431E5E232E004BFBAF /* AppDelegate.swift */,
 				2EDA66451E5E232E004BFBAF /* ViewController.swift */,
 				2EDA66471E5E232E004BFBAF /* Main.storyboard */,
@@ -62,6 +63,13 @@
 				2EDA664F1E5E232E004BFBAF /* Info.plist */,
 			);
 			path = Multiplication;
+			sourceTree = "<group>";
+		};
+		2EDA66551E5E3802004BFBAF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +271,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L588Q82TG3;
 				INFOPLIST_FILE = Multiplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = homeland.Multiplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -276,10 +286,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L588Q82TG3;
 				INFOPLIST_FILE = Multiplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = homeland.Multiplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
